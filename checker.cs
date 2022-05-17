@@ -13,7 +13,7 @@ class Checker
   {
     if (temperature < 0 || temperature > 45)
     {
-      printText("Temperature is out of range!");
+      printText("Temperature is out of range !");
       return false;
     }
 
